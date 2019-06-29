@@ -1,0 +1,52 @@
+body{
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 1226px;
+}
+
+@font-face {    /* 引入字体文件 */
+    font-family: 'iconfont';
+    src: url("./font/iconfont.eot") format("embedded-opentype");
+    src: url("./font/iconfont.ttf");
+}
+
+@font-face {    /* 引入字体文件 */
+    font-family: 'iconfonts';
+    src: url("./font/iconfonts.eot") format("embedded-opentype");
+    src: url("./font/iconfonts.ttf");
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfonts {
+    font-family: "iconfonts" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul,li{
+    list-style: none
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}

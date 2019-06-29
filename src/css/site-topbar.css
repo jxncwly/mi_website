@@ -1,0 +1,147 @@
+.site-topbar {
+    position: relative;
+    /* z-index: 30; */
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+
+.site-topbar a {
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.site-topbar span {
+    display: inline-block;
+    margin: 0 0.5em;
+    color: #424242;
+    font-family: sans-serif;
+}
+
+
+.site-topbar .topbar-nav {
+    float: left;
+}
+
+.site-topbar .topbar-cart {
+    float: right;
+    position: relative;
+    width: 120px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.site-topbar .topbar-cart .cart-menu {
+    display: none;
+    z-index: 10;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    text-align: center;
+    color: #424242;
+    width: 316px;
+    height: 98px;
+    line-height: 98px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+
+.site-topbar .topbar-cart a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background: #424242
+}
+
+.site-topbar .topbar-cart i {
+    margin-right: 4px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: -3px;
+}
+
+.site-topbar .cart-num {
+    color: #b0b0b0;
+    /* margin-left: -4px; */
+}
+
+.site-topbar .topbar-info {
+    float: right;
+}
+
+.site-topbar .topbar-info span {
+    margin: 0;
+}
+
+.site-topbar .topbar-info a {
+    margin: 0 5px;
+}
+
+.site-topbar .topbar-info .message {
+    margin: 0 10px;
+}
+
+.site-topbar .container a:hover {
+    color: white;
+}
+
+/* .site-topbar .container .topbar-cart.hover .cart-menu {
+    display: block;
+} */
+
+.site-topbar .container .topbar-cart.hover a,
+.site-topbar .container .topbar-cart.hover span {
+    background: white;
+    color: #ff6700;
+}
+
+.site-topbar .downloadApp {
+    position: relative
+}
+
+.site-topbar .downloadApp:hover .downloadCode {
+    display: block;
+}
+
+.site-topbar .downloadApp .downloadCode {
+    display: none;
+    width: 124px;
+    height: 150px;
+    background: white;
+    position: absolute;
+    left: -33px;
+    top: 40px;
+    z-index: 10;
+    box-shadow: rgb(170, 170, 170) 0px 1px 5px;
+}
+
+.site-topbar .downloadCode i {
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: -9px;
+    width: 0;
+    height: 0;
+    border-width: 0 9px 9px;
+    border-style: solid;
+    border-color: transparent transparent white;
+}
+
+.site-topbar .downloadCode img {
+    display: block;
+    width: 90px;
+    margin: 18px auto 0;
+}
+ 
+.site-topbar .downloadCode span {
+    display: block;
+    font-size: 14px;
+    line-height: 3;
+    color: #333;
+    text-align: center;
+}
+
+

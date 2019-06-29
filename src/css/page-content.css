@@ -1,0 +1,708 @@
+.page-content {
+  padding-top: 22px;
+  background: #f5f5f5;
+  overflow: hidden;
+  padding-bottom: 38px;
+}
+
+.page-content .culumn {
+  padding-bottom: 22px;
+  height: 672px;
+}
+
+.page-content .culumn .culumn-title {
+  height: 58px;
+  line-height: 58px;
+  margin: 0;
+}
+
+.page-content .culumn .culumn-title .title {
+  display: block;
+  float: left;
+  font-size: 22px;
+  color: #333;
+}
+
+
+.page-content .culumn .culumn-title .text,
+.page-content .culumn .culumn-title .menu {
+  display: block;
+  height: 100%;
+  float: right;
+  font-size: 16px;
+  color: #424242;
+}
+
+.page-content .culumn .culumn-title .text {
+  transition: color 0.4s;
+}
+
+.page-content .culumn .culumn-title .menu span {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 30px;
+  height: 24px;
+  line-height: 24px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.5s;
+}
+
+.page-content .culumn .culumn-title .menu span.cur {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+
+.page-content .culumn .culumn-title .text:hover {
+  color: #ff6700;
+}
+
+.page-content .culumn .culumn-title .text i {
+  font-size: 20px;
+}
+
+.page-content .culumn .culumn-left {
+  width: 234px;
+  height: 614px;
+  margin-right: 14px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-content .culumn .culumn-left li {
+  transition: all 0.2s linear;
+}
+
+.page-content .culumn .culumn-left a {
+  display: block;
+  height: 100%;
+}
+
+.page-content .culumn .culumn-right {
+  float: right;
+  width: 978px;
+  height: 614px;
+}
+
+.page-content .culumn .culumn-right ul {
+  display: none;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.page-content .culumn .culumn-right > ul.cur {
+  display: flex;
+}
+
+.page-content .culumn .culumn-right ul li {
+  overflow: hidden;
+  width: 234px;
+  background: white;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+.page-content .culumn .culumn-right ul .culumn-item {
+  height: 300px;
+}
+
+.page-content .culumn .culumn-right ul .culumn-item-small {
+  height: 143px;
+}
+
+.page-content .culumn .culumn-right ul > div {
+  width: 234px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-content .culumn .culumn-right li:hover,
+.page-content .culumn .culumn-left li:hover {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  transform: translate3d(0,-2px,0);
+}
+
+.page-content .culumn .culumn-right ul .culumn-item > * {
+  text-align: center;
+  display: block;
+}
+
+.page-content .culumn .culumn-right .item-sign {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -32px;
+  height: 20px;
+  width: 64px;
+  line-height: 20px;
+  color: white;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.page-content .culumn .culumn-right .item-img {
+  margin-top: 20px;
+  margin-bottom: 18px;
+  height: 160px;
+}
+
+.page-content .culumn .culumn-right .item-style2-img {
+  margin-top: 34px;
+  margin-bottom: 18px;
+  height: 150px;
+}
+
+.page-content .culumn .culumn-right .item-img img {
+  width: 160px;
+}
+
+.page-content .culumn .culumn-right .item-style2-img img {
+  width: 150px;
+  height: 150px;
+}
+
+.page-content .culumn .culumn-right .item-prod {
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page-content .culumn .culumn-right .item-notes {
+  margin: 2px 10px 10px;
+  color: #b0b0b0;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page-content .culumn .culumn-right .item-style2-notes {
+  height: 18px;
+  margin: 0 10px 10px;
+  color: #b0b0b0;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page-content .culumn .culumn-right .item-price {
+  color: #ff6700;
+}
+
+.page-content .culumn .culumn-right .item-price-old {
+  color: #b0b0b0;
+  text-decoration-line: line-through;
+}
+
+.page-content .culumn-phone .culumn-left li {
+  width: 100%;
+  height: 100%;
+}
+
+.page-content .culumn-phone .culumn-left li img {
+  width: 234px;
+  height: 614px;
+}
+
+.page-content .culumn-more .culumn-left li {
+  width: 100%;
+  height: 300px;
+}
+
+.page-content .culumn-more .culumn-left li img {
+  width: 234px;
+  height: 300px;
+}
+
+.page-content .culumn-inner {
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+
+.page-content .culumn-right .culumn-item-small .item-title {
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #333;
+  width: 94px;
+  top: 40px;
+  left: 30px;
+}
+
+.page-content .culumn-right .culumn-item-small .item-price {
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #ff6700;
+  width: 94px;
+  top: 66px;
+  left: 30px;
+}
+
+.page-content .culumn-right .culumn-item-small .item-img-small {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 32px;
+  right: 20px;
+}
+
+.page-content .culumn-right .culumn-item-small img {
+  width: 80px;
+  height: 80px;
+}
+
+.page-content .culumn-right .culumn-item-small .more {
+  width: 94px;
+  height: 45px;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+.page-content .culumn-right .culumn-item-small .more .more-big {
+  font-size: 18px;
+  color: #333;
+}
+
+.page-content .culumn-right .culumn-item-small .more .more-small {
+  font-size: 12px;
+  color: #757575;
+}
+
+.page-content .culumn-right .culumn-item-small .go {
+  position: absolute;
+  right: 35px;
+  top: 48px;
+  width: 48px;
+  height: 48px;
+  font-size: 56px;
+  line-height: 48px;
+  color: #ff6700;
+}
+
+.page-content .culumn .culumn-right ul .culumn-item .active-view {
+  position: absolute;
+  bottom: -75px;
+  left: 0;
+  width: 174px;
+  height: 59px;
+  padding: 8px 30px;
+  background: #ff6700;
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  transition: all 0.2s linear;
+}
+
+.page-content .culumn-right .culumn-item:hover .active-view {
+  transform: translateY(-75px);
+}
+
+.page-content .culumn-right .active-view .view-content {
+  display: block;
+  width: 174px;
+  height: 36px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-content .culumn-right .active-view .author {
+  display: block;
+  width: 174px;
+  height: 18px;
+  color: rgba(255,255,255,0.6);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.page-content .culumn-recommend .culumn-title .menu {
+  width: 71px;
+  height: 24px;
+  margin: 17px 0;
+}
+
+.page-content .culumn-recommend .culumn-title .menu i {
+  display: block;
+  float: left;
+  width: 34px;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  font-weight: bold;
+  color: #e0e0e0;
+  cursor: default;
+}
+
+.page-content .culumn-recommend {
+  height: 358px;
+}
+
+.page-content .culumn-recommend .culumn-title .menu i.right {
+  margin-left: -1px;
+}
+
+.page-content .culumn-recommend .culumn-title .menu i.abled {
+  color: #b0b0b0;
+  cursor: pointer;
+}
+
+.page-content .culumn-recommend .culumn-title .menu i.abled:hover {
+  color: #ff6700;
+}
+
+.page-content .culumn-recommend .culumn-right {
+  width: 100%;
+  height: 322px;
+  overflow: hidden;
+}
+
+.page-content .culumn-recommend .culumn-right ul {
+  width: 4946px;
+  height: 322px;
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.5s ease;
+}
+
+.page-content .culumn-recommend .culumn-right .item-style3-img {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 140px;
+}
+
+.page-content .culumn-recommend .culumn-right .item-style3-img img {
+  width: 140px;
+  height: 140px;
+}
+
+.page-content .culumn-bottom {
+  height: 473px;
+}
+
+.page-content .culumn-bottom .culumn-content {
+  width: 100%;
+  height: 415px;
+}
+
+.page-content .culumn-bottom .culumn-content ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-content .culumn-bottom .culumn-content .culumn-item {
+  width: 296px;
+  height: 415px;
+  background: white;
+  transition: all 0.2s linear;
+}
+
+.page-content .culumn-bottom .culumn-content .culumn-item:hover {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  transform: translate3d(0,-2px,0);
+}
+
+.page-content .culumn-bottom .culumn-content .culumn-item .item-img {
+  width: 296px;
+  height: 220px;
+  display: block;
+}
+
+.page-content .culumn-bottom .culumn-content .culumn-item img {
+  width: 296px;
+  height: 220px;
+}
+
+.page-content .culumn .culumn-content .item-prod {
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page-content .culumn-bottom .culumn-content .culumn-item .item-comment {
+  display: block;
+  color: #333;
+  height: 72px;
+  margin: 28px 28px 22px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-content .culumn-bottom .culumn-content .culumn-item .item-commentAuthor {
+  margin: 0 28px 8px;
+  height: 18px;
+  color: #b0b0b0;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page-content .culumn-bottom .culumn-content .culumn-item .item-prod {
+  margin: 0 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+.page-content .culumn-bottom .culumn-content .culumn-item .item-prod .title {
+  color: #333;
+}
+
+.page-content .culumn-bottom .culumn-content .culumn-item .item-prod .sep {
+  display: inline-block;
+  margin: 0 0.25em;
+  color: #e0e0e0;
+} 
+
+.page-content .culumn-bottom .culumn-content .culumn-item .item-prod .price {
+  color :#ff6700;
+}
+
+.page-content .content {
+  height: 478px;
+}
+
+.page-content .content .culumn-content {
+  height: 420px;
+}
+
+.page-content .content .culumn-content>ul .item {
+  background: white;
+  width: 296px;
+  height: 374px;
+  padding-top: 45px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+.page-content .content .culumn-content>ul .item:hover {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  transform: translate3d(0,-2px,0);
+}
+
+.page-content .content .culumn-content>ul .culumn-book {
+  border-top: 1px solid #ffac13;
+  color: #ffac13;
+}
+
+.page-content .content .culumn-content>ul .culumn-miui {
+  border-top: 1px solid #83c44e;
+  color: #83c44e;
+}
+
+.page-content .content .culumn-content>ul .culumn-game {
+  border-top: 1px solid #e53935;
+  color: #e53935;
+}
+
+.page-content .content .culumn-content>ul .culumn-app {
+  border-top: 1px solid #2196f3;
+  color: #2196f3;
+}
+
+.page-content .content .culumn-content>ul .item .title {
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+
+.page-content .content .culumn-content>ul .item .item-content {
+  height: 340px;
+  transition: all 0.5s ease;
+}
+
+.page-content .content .culumn-content>ul .item .item-content .name {
+  color: #333;
+  margin: 0 20px 5px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.page-content .content .culumn-content>ul .item .item-content .desc {
+  color: #b0b0b0;
+  margin: 0 48px 10px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.page-content .content .culumn-content>ul .item .item-content .price {
+  height: 21px;
+  margin: 0 10px 15px;
+  text-align: center;
+  color: #333;
+}
+
+.page-content .content .culumn-content>ul .item .item-content .content-linkmore {
+  display: block;
+  width: 118px;
+  height: 28px;
+  margin: 0 auto;
+  line-height: 28px;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 0.6s;
+}
+
+.page-content .content .culumn-content>ul .culumn-book .item-content .content-linkmore {
+  border: 1px solid #ffac13;
+  color: #ffac13;
+}
+
+.page-content .content .culumn-content>ul .culumn-book .item-content .content-linkmore:hover {
+  background: #ffac13;
+  color: white;
+}
+
+.page-content .content .culumn-content>ul .culumn-miui .item-content .content-linkmore {
+  border: 1px solid #83c44e;
+  color: #83c44e;
+}
+
+.page-content .content .culumn-content>ul .culumn-miui .item-content .content-linkmore:hover {
+  background: #83c44e;
+  color: white;
+}
+
+.page-content .content .culumn-content>ul .culumn-game .item-content .content-linkmore {
+  border: 1px solid #e53935;
+  color: #e53935;
+}
+
+.page-content .content .culumn-content>ul .culumn-game .item-content .content-linkmore:hover {
+  background: #e53935;
+  color: white;
+}
+
+.page-content .content .culumn-content>ul .culumn-app .item-content .content-linkmore {
+  border: 1px solid #2196f3;
+  color: #2196f3;
+}
+
+.page-content .content .culumn-content>ul .culumn-app .item-content .content-linkmore:hover {
+  background: #2196f3;
+  color: white;
+}
+
+.page-content .content .culumn-content>ul .item .item-content .img-container {
+  margin: 0 40px;
+  height: 154px;
+}
+
+.page-content .content .culumn-content>ul .item .item-content .img-container a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page-content .content .culumn-content>ul .item .item-content .img-container img {
+  width: 216px;
+  height: 154px;
+}
+
+.page-content .content .culumn-content>ul .item .page-symbol {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-content .content .culumn-content>ul .item .page-symbol div {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border: 2px solid #f5f5f5;
+  border-radius: 6px;
+  background-color: #b0b0b0;
+  margin: 10px 12px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.page-content .content .culumn-content>ul .item .page-symbol div.on {
+  background: #ff6700;
+}
+
+.page-content .content .culumn-content>ul .item .page-symbol div.cur {
+  border-color: #ff6700;
+  background-color: transparent;
+}
+
+.page-content .content .culumn-content>ul .item .page-change div {
+  width: 20px;
+  height: 24px;
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  background-color: rgba(66,66,66,0.2);
+  color: #fafafa;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+.page-content .content .culumn-content>ul .item:hover .page-change div {
+  opacity: 1;
+}
+
+.page-content .content .culumn-content>ul .item .page-change div:hover {
+  background-color: rgba(66,66,66,0.6);
+}
+
+.page-content .content .culumn-content>ul .item .page-left {
+  left: 0;
+}
+
+.page-content .content .culumn-content>ul .item .page-right {
+  right: 0;
+}
+
+.page-content .content .culumn-content>ul .item .book {
+  width: 888px;
+}
+
+.page-content .content .culumn-content>ul .item .miui,
+.page-content .content .culumn-content>ul .item .game,
+.page-content .content .culumn-content>ul .item .app {
+  width: 1184px;
+}
+
+.page-content .content .culumn-content>ul .item .item-content li {
+  height: 100%;
+  width: 296px;
+  float: left;
+}
+

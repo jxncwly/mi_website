@@ -1,0 +1,261 @@
+.site-header {
+  height: 100px;
+  position: relative;
+}
+
+.site-header .logo {
+  display: block;
+  width: 55px;
+  height: 55px;
+  background: #ff6700 url('../images/site-header/mi-logo.png') center no-repeat;
+  margin: 22px 7px 0 0;
+  float: left;
+}
+
+.site-header .gif {
+  display: block;
+  float: left;
+  width: 171.5px;
+  height:100px;
+  background: url('../images/site-header/1.gif') right no-repeat;
+}
+
+.site-header .nav-list {
+  height: 100px;
+  float: left;
+}
+
+.site-header .nav-list ul {
+  float: left;
+}
+
+/* .site-header .nav-list:hover .{
+  display: block;
+} */
+
+.site-header .nav-list li,
+.site-header .service,
+.site-header .community {
+  float: left;
+  height: 100px;
+  padding:0 10px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 16px;
+  color: #333;
+}
+
+.site-header .nav-list li:hover {
+  color: #ff6700;
+}
+.site-header .service:hover {
+  color: #ff6700;
+}
+.site-header .community:hover {
+  color: #ff6700;
+}
+
+.site-header .nav-list-menu {
+  z-index: 8;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: 229px;
+  border-top: 1px solid #e0e0e0;
+  background: white;
+  box-shadow: 0 4px 5px -3px rgba(0,0,0,0.15);  
+  display: none;
+}
+
+.site-header .nav-list-menu .list-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: none;
+}
+
+.site-header .nav-list-menu .list-item.list-item-one {
+  display: block;
+}
+
+.site-header .nav-list-menu .menu-item {
+  float: left;
+  height: 100%;
+  width: 16.66%;
+  text-align: center;
+  position: relative;
+}
+
+.site-header .menu-item .item-sign {
+  position: absolute;
+  top: -1px;
+  width: 100%;
+  text-align: center;
+}
+
+.site-header .menu-item .sign {
+  display: inline-block;
+  height: 18px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 1px 20px;
+  border: 1px solid #ff6700;
+  color: #ff6700;
+}
+
+.site-header .menu-item a {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 35px;
+  text-align: center;
+}
+
+.site-header .menu-item img {
+  width: 160px;
+  height: 110px;
+}
+
+.site-header .menu-item .separate {
+  width: 0;
+  height: 100px;
+  border-right: 1px solid #e0e0e0;
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+
+.site-header .menu-item .item-title {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 162px;
+  font-size: 12px;
+  color: #333;
+}
+
+.site-header .menu-item .item-price {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 182px;
+  font-size: 12px;
+  color: #ff6700
+}
+
+.site-header form {
+  width: 296px;
+  height: 50px;
+  float: right;
+  margin: 25px 0;
+  position: relative;
+}
+
+.site-header .search {
+  z-index: 1;
+  outline: none;
+  width: 223px;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 10px;
+  border: 1px solid #e0e0e0;
+  position: absolute;
+  top: 0;
+  right: 51px;
+  font-size: 14px;
+  transition: all 0.2s
+}
+
+.site-header input.inputHover {
+  border-color: #b0b0b0;
+}
+
+.site-header form input.inputFocus {
+  border-color: #ff6700;
+}
+
+.site-header .search-btn {
+  z-index: 1;
+  outline: none;
+  cursor: pointer;
+  width: 52px;
+  height: 50px;
+  line-height: 48px;
+  background: white;
+  color: #616161;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 24px;
+  transition: all 0.2s
+}
+
+.site-header .search-btn.btnHover {
+  color: white;
+  background: #ff6700;
+  border-color: #ff6700;
+}
+
+.site-header .hotWords {
+  z-index: 2;
+  width:111px;
+  height: 18px;
+  position: absolute;
+  top: 16px;
+  right: 62px;
+}
+
+.site-header .hotWord {
+  float: left;
+  padding: 0 5px;
+  margin-left: 5px;
+  background: #eee;
+  color: #757575;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+
+.site-header .hotWord:hover {
+  background: #ff6700;
+  color: white;
+}
+
+.site-header .hotWords-list {
+  display: none;
+  z-index: 9;
+  position: absolute;
+  top: 49px;
+  left: 0;
+  width: 243px;
+  background: white;
+  border: 1px solid #ff6700;
+}
+
+.site-header .hotWords-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header .hotWords-list a {
+  display: block;
+  padding: 6px 15px;
+  color: #424242;
+  position: relative;
+  font-size: 12px;
+}
+
+.site-header .hotWords-list li:hover {
+  background: #fafafa;
+}
+
+.site-header .hotWords-list a .info {
+  position: absolute;
+  top: 6px;
+  right: 15px;
+  color: #b0b0b0;
+}
+

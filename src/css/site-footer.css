@@ -1,0 +1,176 @@
+.site-footer {
+  width: 100%;
+  height: 272px;
+  background: white;
+}
+.site-footer .footer-service {
+  width: 100%;
+  height: 25px;
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.site-footer .footer-service>div {
+  height: 100%;
+  float: left;
+}
+
+.site-footer .footer-service .service-item {
+  line-height: 25px;
+  text-align: center;
+  width: 244.4px;
+}
+
+.site-footer .footer-service .service-item a {
+  color: #616161;
+  transition: color 0.2s;
+  font-size: 16px;
+}
+
+.site-footer .footer-service .service-item a:hover {
+  color: #ff6700;
+}
+
+.site-footer .footer-service .service-item a i {
+  margin-right: 6px;
+  font-size: 24px;
+  line-height: 24px;
+  vertical-align: -4px;
+}
+
+.site-footer .footer-service .sep {
+  width: 1px;
+  background: #e0e0e0;
+}
+
+.site-footer .footer-links {
+  width: 100%;
+  height: 112px;
+  padding: 40px 0;
+}
+
+.site-footer .footer-links .col-links {
+  float: left;
+  width: 160px;
+  height: 112px;
+  margin: 0;
+}
+
+.site-footer .footer-links .col-links dt {
+  margin: -1px 0 26px;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #424242;
+}
+
+.site-footer .footer-links .col-links dd {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+
+.site-footer .footer-links .col-links dd a {
+  color: #757575;
+}
+
+.site-footer .footer-links .col-links dd a:hover {
+  color: #ff6700;
+}
+
+.site-footer .footer-links .col-contact {
+  float: right;
+  width: 244.4px;
+  height: 112px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+}
+
+.site-footer .footer-links .col-contact .phone {
+  margin: 0 0 5px;
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+}
+
+.site-footer .footer-links .col-contact .intro {
+  margin: 0 0 16px;
+  font-size: 12px;
+}
+
+.site-footer .footer-links .col-contact .service-link {
+  display: inline-block;
+  border: 1px solid #ff6700;
+  background: #fff;
+  color: #ff6700;
+  width: 118px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+  transition: all .4s;
+}
+
+.site-footer .footer-links .col-contact .service-link:hover {
+  color: white;
+  background: #ff6700;
+}
+
+.site-info {
+  width: 100%;
+  height: 172px;
+  padding: 30px 0;
+  font-size: 12px;
+  background: #fafafa;
+}
+
+.site-info .logo {
+  width: 57px;
+  height: 57px;
+  background: #ff6700 url('../images/site-header/mi-logo.png') center no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.site-info .info-text {
+  color: #b0b0b0;
+  padding-left: 67px;
+}
+
+.site-info .info-text a {
+  color: #b0b0b0;
+}
+
+.site-info .info-text .sites {
+  margin: 0;
+  line-height: 18px;
+}
+
+.site-info .info-text .sites a {
+  color: #757575;
+}
+
+.site-info .info-text a:hover {
+  color: #ff6700;
+}
+
+.site-info .info-text .sites span {
+  margin: 0 0.25em;
+}
+
+.site-info .info-links {
+  height: 28px;
+  margin: 4px 0 0;
+  padding-left: 67px;
+}
+
+.site-info .info-links img {
+  height: 28px;
+}
+
+.site-info .slogan {
+  margin: 30px auto 0;
+  width: 267px;
+  height: 19px;
+  background: url(../images/site-footer/slogan2016.png) no-repeat center 0;
+}
+
